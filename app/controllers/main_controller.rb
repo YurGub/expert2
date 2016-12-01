@@ -1,6 +1,6 @@
 class MainController < ApplicationController
   def index
-    @test = 'Hello world!!!'
+    @test = 'Hello World!'
   end
 
   def help
