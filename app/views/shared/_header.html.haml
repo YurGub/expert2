@@ -1,9 +1,11 @@
 %header
   %div.nav
-    %ul
+    %div.logo
+      = link_to image_tag("logo.png", alt: "Rails logo")
+    %div.h1
+      = 'Experteese in Ruby_on_Rails'
+    %ul.links
       %li
-        =link_to 'Contacts', main_contacts_path
+        =link_to 'помощь', main_help_path
       %li
-        =link_to 'Help', main_help_path
-      %li
-        =link_to 'About', main_about_path
+        =link_to 'о проекте', main_about_path

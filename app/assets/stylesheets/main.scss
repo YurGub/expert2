@@ -1,18 +1,31 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-$header-bg: #dadada;
-
+$header-bg: #0a4d47;
+body {
+  margin: 0;
+}
+.logo, .h1, .links {
+  float: left;
+  color: #fff;
+  padding: 10px;
+  img {
+    width: 65%;
+  }
+}
 .nav {
   background: $header-bg;
 }
-ul {
+ul.links {
+  float: right;
   display: flex;
-  justify-content: flex-end;
   list-style: none;
+  margin: 0;
   li {
     padding: 15px;
     a {
+      font-size: 2rem;
+      color: #fff;
       text-decoration: none;
       text-transform: uppercase;
     }
