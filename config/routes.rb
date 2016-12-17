@@ -12,6 +12,17 @@ Rails.application.routes.draw do
   resources :users
   root 'main#index'
 
+  # Api definition
+  namespace :api, defaults: { format: :json } do
+    # We are going to list our resources here
+    #   resources :users
+
+    match 'next_image',       to: 'api#next_image',   via: 'get'
+    match 'prev_image',       to: 'api#prev_image',   via: 'get'
+    match 'save_value',       to: 'api#save_value',   via: :get
+
+  end
+
   get 'main/index'
 
   match 'main/help', to: 'main#help', via: 'get'

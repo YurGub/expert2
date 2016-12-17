@@ -21,7 +21,7 @@
           = render 'work/button_theme_select', locale: @current_locale
           %br
 
-    .col-md-9
+    .col-md-8
       .image_display
 
         .row.image
@@ -36,7 +36,8 @@
           .col-md-1
             .img-left-side
               %h3{:title => "list to previous image"}
-                %i.fa.fa-chevron-circle-left.strong
+                -#%i.fa.fa-chevron-circle-left.strong
+                %i <
 
               -#%button.button__results.yes{:title => "Save image diag results"}
               -#  %a{"data-remote" => "true", :format => "js", :href => "#", :title => "Save image diag results"} save
@@ -53,4 +54,5 @@
           .col-md-1
             .img-right-side
               %h3{:title => "list to next image"}
-                %i.fa.fa-chevron-circle-right
+                -#%i.fa.fa-chevron-circle-right
+                %i >
