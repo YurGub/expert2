@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161206155152) do
+ActiveRecord::Schema.define(version: 20161220181912) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,14 +31,6 @@ ActiveRecord::Schema.define(version: 20161206155152) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "scaffolds", force: :cascade do |t|
-    t.string   "Theme"
-    t.string   "name"
-    t.integer  "gty_items"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "themes", force: :cascade do |t|
     t.string   "name"
     t.integer  "gty_items"
@@ -49,8 +41,12 @@ ActiveRecord::Schema.define(version: 20161206155152) do
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "password_digest"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+  create_table "users1s", force: :cascade do |t|
   end
 
   create_table "values", force: :cascade do |t|
