@@ -21326,3 +21326,233 @@ In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_i
 Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.8ms)
 
 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.3ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Пляж 1"], ["file", "bitch.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Пляж 2"], ["file", "bitch2.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 2]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Грот 1"], ["file", "grot.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Грот 2"], ["file", "grot2.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 3]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Автомобиль 1"], ["file", "car.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Автомобиль 2"], ["file", "car2.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Автомобиль 3"], ["file", "car3.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 4]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Сад 1"], ["file", "garden.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 5]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "images" ("name", "file", "created_at", "updated_at", "theme_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Сад 2"], ["file", "garden2.jpg"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC], ["theme_id", 5]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "themes"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (8.4ms)[0m  [1m[32mINSERT INTO "themes" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "-----"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "themes" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "themes" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Какие пещеры кажутся вам наиболее привлекательными?"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "themes" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "themes" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Какой сад должен быть в вашем доме?"], ["created_at", 2016-12-20 16:51:44 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35mSQL (19.3ms)[0m  [1m[31mDELETE FROM "microposts"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Привет! Я хотел бы поработать здесь!"], ["user_id", 1], ["created_at", 2016-09-03 09:00:51 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "И я бы не отказался!"], ["user_id", 2], ["created_at", 2016-09-03 09:01:13 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Посмотри на мой код: https://github.com/BlookHo/bloGNote"], ["user_id", 1], ["created_at", 2016-09-03 09:01:58 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Я хотела бы оценить Picasso"], ["user_id", 3], ["created_at", 2016-09-03 09:02:31 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "И я бы не против. Нужно админам поработать! )"], ["user_id", 2], ["created_at", 2016-09-03 09:03:03 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Мой очень длинный пост: ЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖЖ"], ["user_id", 1], ["created_at", 2016-09-03 09:22:49 UTC], ["updated_at", 2016-12-20 16:51:44 UTC]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 16:51:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.2ms)
+  Rendered work/_images.html.haml (27.7ms)
+  Rendered work/index.html.haml within layouts/application (50.4ms)
+  Rendered shared/_header.html.haml (16.0ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 1223ms (Views: 1149.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 16:51:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.7ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.3ms)
+  Rendered work/choose_theme.js.erb (55.1ms)
+Completed 200 OK in 178ms (Views: 126.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 16:52:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>2, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+  Rendering work/display_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (2.0ms)
+  Rendered work/display_theme.js.erb (216.2ms)
+Completed 200 OK in 700ms (Views: 463.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=2&length=2" for 10.0.2.2 at 2016-12-20 16:52:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"2"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>2, "name"=>"Пляж 2", "file"=>"bitch2.jpg", "ave_value"=>nil} 
+In show_image: image_id = 2 
+  [1m[36mValue Load (0.2ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 2]]
+In show_image: user_valued = 0 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>1, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>2, :image_id=>2, :name=>"Пляж 2", :file=>"bitch2.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 200 OK in 68ms (Views: 61.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/api/next_image?index=1&theme_id=2&length=2" for 10.0.2.2 at 2016-12-20 16:52:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"1", "theme_id"=>"2", "length"=>"2"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>2, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.2ms)
+Completed 200 OK in 11ms (Views: 1.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=2&length=2" for 10.0.2.2 at 2016-12-20 16:52:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"2"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>2, "name"=>"Пляж 2", "file"=>"bitch2.jpg", "ave_value"=>nil} 
+In show_image: image_id = 2 
+  [1m[36mValue Load (0.4ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 2]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>1, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>2, :image_id=>2, :name=>"Пляж 2", :file=>"bitch2.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 200 OK in 14ms (Views: 2.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/api/next_image?index=1&theme_id=2&length=2" for 10.0.2.2 at 2016-12-20 16:52:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"1", "theme_id"=>"2", "length"=>"2"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>2, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 200 OK in 13ms (Views: 1.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=2&length=2" for 10.0.2.2 at 2016-12-20 16:52:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"2"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>2, "name"=>"Пляж 2", "file"=>"bitch2.jpg", "ave_value"=>nil} 
+In show_image: image_id = 2 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 2]]
+In show_image: user_valued = 0 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>1, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>2, :image_id=>2, :name=>"Пляж 2", :file=>"bitch2.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 200 OK in 10ms (Views: 0.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/api/next_image?index=1&theme_id=2&length=2" for 10.0.2.2 at 2016-12-20 16:52:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"1", "theme_id"=>"2", "length"=>"2"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.4ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>2, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.83ms)
+Completed 200 OK in 13ms (Views: 1.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=2&length=2" for 10.0.2.2 at 2016-12-20 16:52:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"2"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (1.0ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>2, "name"=>"Пляж 2", "file"=>"bitch2.jpg", "ave_value"=>nil} 
+In show_image: image_id = 2 
+  [1m[36mValue Load (0.4ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 2]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>1, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>2, :image_id=>2, :name=>"Пляж 2", :file=>"bitch2.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+Completed 200 OK in 13ms (Views: 2.0ms | ActiveRecord: 1.6ms)
+
+
