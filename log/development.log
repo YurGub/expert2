@@ -19510,3 +19510,1819 @@ In show_image:  data = {:index=>1, :values_qty=>0, :current_user_id=>0, :theme_i
 Completed 200 OK in 11ms (Views: 0.8ms | ActiveRecord: 1.0ms)
 
 
+Started GET "/" for 10.0.2.2 at 2016-12-20 15:08:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (57.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  [1m[35m (17.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (7.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (15.5ms)
+  Rendered work/_images.html.haml (38.9ms)
+  Rendered work/index.html.haml within layouts/application (68.2ms)
+Completed 500 Internal Server Error in 3170ms (ActiveRecord: 43.9ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /vagrant/expert2/app/assets/config
+  /vagrant/expert2/app/assets/images
+  /vagrant/expert2/app/assets/javascripts
+  /vagrant/expert2/app/assets/stylesheets
+  /vagrant/expert2/vendor/assets/javascripts
+  /vagrant/expert2/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.1/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.1/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.1/gems/actioncable-5.0.0.1/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.3.1/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /vagrant/expert2/assets/images/pictures):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Expert2
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = render 'shared/header'
+  
+app/assets/stylesheets/custom.sass:1
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__2852578829502149037_29727920'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.5ms)
+Started GET "/" for 10.0.2.2 at 2016-12-20 15:09:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (16.1ms)
+  Rendered work/_images.html.haml (40.6ms)
+  Rendered work/index.html.haml within layouts/application (62.8ms)
+Completed 500 Internal Server Error in 718ms (ActiveRecord: 2.5ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /vagrant/expert2/app/assets/config
+  /vagrant/expert2/app/assets/images
+  /vagrant/expert2/app/assets/javascripts
+  /vagrant/expert2/app/assets/stylesheets
+  /vagrant/expert2/vendor/assets/javascripts
+  /vagrant/expert2/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.1/gems/jquery-rails-4.2.1/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.1/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.1/gems/actioncable-5.0.0.1/lib/assets/compiled
+  /usr/local/rvm/gems/ruby-2.3.1/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /vagrant/expert2/assets/images/pictures):
+    4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    5:     %title Expert2
+    6:     = csrf_meta_tags
+    7:     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    9:   %body
+   10:     = render 'shared/header'
+  
+app/assets/stylesheets/custom.sass:1
+app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__4550742068363276615_34384420'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.9ms)
+Started GET "/" for 10.0.2.2 at 2016-12-20 15:14:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.4ms)
+  Rendered work/_images.html.haml (27.7ms)
+  Rendered work/index.html.haml within layouts/application (49.6ms)
+  Rendered shared/_header.html.haml (17.0ms)
+  Rendered shared/_footer.html.haml (0.9ms)
+Completed 200 OK in 4946ms (Views: 4872.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:15:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (34.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (2.0ms)
+  Rendered work/_choose_theme_from_arr.html.haml (3.0ms)
+  Rendered work/choose_theme.js.erb (58.7ms)
+Completed 200 OK in 323ms (Views: 139.3ms | ActiveRecord: 36.0ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:15:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.9ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 44.6ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (25.1ms)
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:15:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.5ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.8ms)
+  Rendered work/choose_theme.js.erb (52.9ms)
+Completed 200 OK in 170ms (Views: 119.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:15:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.4ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.2ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.7ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.5ms)
+Started GET "/" for 10.0.2.2 at 2016-12-20 15:15:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_images.html.haml (22.7ms)
+  Rendered work/index.html.haml within layouts/application (41.6ms)
+  Rendered shared/_header.html.haml (14.8ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 363ms (Views: 338.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:15:32 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_images.html.haml (22.2ms)
+  Rendered work/index.html.haml within layouts/application (40.5ms)
+  Rendered shared/_header.html.haml (14.6ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 355ms (Views: 329.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?locale=en" for 10.0.2.2 at 2016-12-20 15:15:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"en"}
+In extr_locale_in_accept_lang: locale = en
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.2ms)
+  Rendered work/_images.html.haml (20.7ms)
+  Rendered work/index.html.haml within layouts/application (37.5ms)
+  Rendered shared/_header.html.haml (13.4ms)
+  Rendered shared/_footer.html.haml (0.6ms)
+Completed 200 OK in 341ms (Views: 315.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:15:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.2ms)
+  Rendered work/_images.html.haml (21.5ms)
+  Rendered work/index.html.haml within layouts/application (39.5ms)
+  Rendered shared/_header.html.haml (14.6ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 372ms (Views: 340.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:15:39 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.2ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.5ms)
+  Rendered work/choose_theme.js.erb (51.1ms)
+Completed 200 OK in 164ms (Views: 122.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:15:41 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой сад должен быть в вашем доме?"}
+In work#display_theme
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой сад должен быть в вашем доме?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.2ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 5]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.9ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.4ms)
+  Rendered work/_images.html.haml (21.9ms)
+  Rendered work/index.html.haml within layouts/application (40.7ms)
+  Rendered shared/_header.html.haml (14.6ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 387ms (Views: 348.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:19:45 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.2ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.3ms)
+  Rendered work/choose_theme.js.erb (50.5ms)
+Completed 200 OK in 155ms (Views: 123.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:19:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.3ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.2ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.3ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:21:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.8ms)
+  Rendered work/_images.html.haml (29.3ms)
+  Rendered work/index.html.haml within layouts/application (48.0ms)
+  Rendered shared/_header.html.haml (16.2ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 397ms (Views: 375.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:21:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.4ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.8ms)
+  Rendered work/choose_theme.js.erb (54.5ms)
+Completed 200 OK in 162ms (Views: 124.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:21:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.3ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.2ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.1ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:22:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.9ms)
+  Rendered work/_images.html.haml (23.6ms)
+  Rendered work/index.html.haml within layouts/application (41.6ms)
+  Rendered shared/_header.html.haml (14.5ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 367ms (Views: 346.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:22:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.4ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.6ms)
+  Rendered work/choose_theme.js.erb (51.9ms)
+Completed 200 OK in 158ms (Views: 121.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:22:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.3ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.9ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:23:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.7ms)
+  Rendered work/_images.html.haml (28.1ms)
+  Rendered work/index.html.haml within layouts/application (49.2ms)
+  Rendered shared/_header.html.haml (15.3ms)
+  Rendered shared/_footer.html.haml (1.0ms)
+Completed 200 OK in 1302ms (Views: 1227.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:23:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.5ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.1ms)
+  Rendered work/choose_theme.js.erb (53.5ms)
+Completed 200 OK in 179ms (Views: 124.0ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:23:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.7ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+  [1m[36mImage Load (1.0ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 4.9ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.8ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:24:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.4ms)
+  Rendered work/_images.html.haml (24.2ms)
+  Rendered work/index.html.haml within layouts/application (42.9ms)
+  Rendered shared/_header.html.haml (15.7ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 417ms (Views: 370.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:24:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.5ms)
+  Rendered work/choose_theme.js.erb (51.9ms)
+Completed 200 OK in 157ms (Views: 121.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:24:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.4ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.3ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:25:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (8.2ms)
+  Rendered work/_images.html.haml (31.7ms)
+  Rendered work/index.html.haml within layouts/application (54.5ms)
+  Rendered shared/_header.html.haml (20.5ms)
+  Rendered shared/_footer.html.haml (1.4ms)
+Completed 200 OK in 1249ms (Views: 1169.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:25:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (2.8ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.9ms)
+  Rendered work/choose_theme.js.erb (56.0ms)
+Completed 200 OK in 192ms (Views: 126.7ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:25:08 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 2.8ms)
+
+
+  
+NameError (undefined local variable or method `one_image_attr' for #<WorkController:0x0000000710f4f8>
+Did you mean?  new_image_path):
+  
+app/controllers/concerns/work_image.rb:15:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (50.0ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:26:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.2ms)
+  Rendered work/_images.html.haml (23.6ms)
+  Rendered work/index.html.haml within layouts/application (43.1ms)
+  Rendered shared/_header.html.haml (17.1ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 390ms (Views: 369.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:26:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.4ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.6ms)
+  Rendered work/choose_theme.js.erb (53.8ms)
+Completed 200 OK in 163ms (Views: 133.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:26:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какие пещеры кажутся вам наиболее привлекательными?"}
+In work#display_theme
+  [1m[36mTheme Load (0.3ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какие пещеры кажутся вам наиболее привлекательными?"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 86ms (ActiveRecord: 0.3ms)
+
+
+  
+NameError (undefined local variable or method `one_image_attr' for #<WorkController:0x000000029f7110>
+Did you mean?  new_image_path):
+  
+app/controllers/concerns/work_image.rb:15:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (49.7ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:26:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.6ms)
+  Rendered work/_images.html.haml (28.1ms)
+  Rendered work/index.html.haml within layouts/application (50.0ms)
+  Rendered shared/_header.html.haml (16.6ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 1396ms (Views: 1311.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:26:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.6ms)
+  Rendered work/choose_theme.js.erb (50.5ms)
+Completed 200 OK in 170ms (Views: 117.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:26:44 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.7ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 4.5ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.3ms)
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mTheme Load (0.4ms)[0m  [1m[34mSELECT "themes".* FROM "themes"[0m
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:34:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.3ms)
+  Rendered work/_images.html.haml (30.1ms)
+  Rendered work/index.html.haml within layouts/application (50.6ms)
+  Rendered shared/_header.html.haml (15.7ms)
+  Rendered shared/_footer.html.haml (1.0ms)
+Completed 200 OK in 1183ms (Views: 1108.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:34:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.6ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.1ms)
+  Rendered work/choose_theme.js.erb (52.9ms)
+Completed 200 OK in 185ms (Views: 123.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:34:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 3.9ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (25.0ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:39:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.1ms)
+  Rendered work/_images.html.haml (21.2ms)
+  Rendered work/index.html.haml within layouts/application (39.8ms)
+  Rendered shared/_header.html.haml (15.2ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 377ms (Views: 347.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:39:25 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_images.html.haml (23.5ms)
+  Rendered work/index.html.haml within layouts/application (42.0ms)
+  Rendered shared/_header.html.haml (14.1ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 378ms (Views: 345.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:39:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.6ms)
+  Rendered work/choose_theme.js.erb (56.7ms)
+Completed 200 OK in 163ms (Views: 125.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:39:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.7ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.0ms)
+  [1m[36mImage Load (0.2ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 1]]
+  [1m[36mImage Load (0.7ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 1]]
+  [1m[36mImage Load (0.7ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mImage Load (0.7ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 1]]
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:47:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.4ms)
+  Rendered work/_images.html.haml (28.6ms)
+  Rendered work/index.html.haml within layouts/application (49.2ms)
+  Rendered shared/_header.html.haml (15.1ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 1279ms (Views: 1194.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:47:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.2ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.6ms)
+  Rendered work/choose_theme.js.erb (51.3ms)
+Completed 200 OK in 180ms (Views: 119.3ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:47:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.7ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 3.3ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.2ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:50:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_images.html.haml (22.7ms)
+  Rendered work/index.html.haml within layouts/application (42.7ms)
+  Rendered shared/_header.html.haml (16.6ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 452ms (Views: 406.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:50:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (2.0ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.4ms)
+  Rendered work/choose_theme.js.erb (53.1ms)
+Completed 200 OK in 158ms (Views: 119.6ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:50:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.5ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.9ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:51:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.4ms)
+  Rendered work/_images.html.haml (24.1ms)
+  Rendered work/index.html.haml within layouts/application (42.1ms)
+  Rendered shared/_header.html.haml (16.1ms)
+  Rendered shared/_footer.html.haml (0.9ms)
+Completed 200 OK in 462ms (Views: 417.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:51:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.5ms)
+  Rendered work/choose_theme.js.erb (53.3ms)
+Completed 200 OK in 162ms (Views: 121.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:51:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.5ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.8ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:52:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_images.html.haml (22.7ms)
+  Rendered work/index.html.haml within layouts/application (40.5ms)
+  Rendered shared/_header.html.haml (15.9ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 406ms (Views: 369.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:52:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.4ms)
+  Rendered work/choose_theme.js.erb (53.9ms)
+Completed 200 OK in 150ms (Views: 123.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:52:37 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.5ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (22.9ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:53:29 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.7ms)
+  Rendered work/_images.html.haml (28.5ms)
+  Rendered work/index.html.haml within layouts/application (49.9ms)
+  Rendered shared/_header.html.haml (17.7ms)
+  Rendered shared/_footer.html.haml (0.9ms)
+Completed 200 OK in 1441ms (Views: 1365.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:53:31 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.8ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.6ms)
+  Rendered work/choose_theme.js.erb (57.0ms)
+Completed 200 OK in 183ms (Views: 127.4ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:53:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 2.8ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/helpers/work_helper.rb:8:in `image_data'
+app/controllers/work_controller.rb:49:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (27.6ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:53:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.5ms)
+  Rendered work/_images.html.haml (23.8ms)
+  Rendered work/index.html.haml within layouts/application (42.5ms)
+  Rendered shared/_header.html.haml (16.9ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 419ms (Views: 392.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:53:48 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.6ms)
+  Rendered work/choose_theme.js.erb (50.9ms)
+Completed 200 OK in 155ms (Views: 121.0ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:53:50 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.5ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/helpers/work_helper.rb:8:in `image_data'
+app/controllers/work_controller.rb:49:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.2ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 15:54:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.5ms)
+  Rendered work/_images.html.haml (27.6ms)
+  Rendered work/index.html.haml within layouts/application (48.5ms)
+  Rendered shared/_header.html.haml (18.3ms)
+  Rendered shared/_footer.html.haml (0.9ms)
+Completed 200 OK in 1421ms (Views: 1347.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 15:54:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.6ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.3ms)
+  Rendered work/choose_theme.js.erb (53.2ms)
+Completed 200 OK in 178ms (Views: 120.8ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 15:54:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой сад должен быть в вашем доме?"}
+In work#display_theme
+  [1m[36mTheme Load (0.8ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой сад должен быть в вашем доме?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 5]]
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 3.9ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:46:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (25.5ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 16:00:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.3ms)
+  Rendered work/_images.html.haml (27.6ms)
+  Rendered work/index.html.haml within layouts/application (49.0ms)
+  Rendered shared/_header.html.haml (17.9ms)
+  Rendered shared/_footer.html.haml (0.9ms)
+Completed 200 OK in 1417ms (Views: 1343.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 16:00:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.7ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.3ms)
+  Rendered work/choose_theme.js.erb (54.0ms)
+Completed 200 OK in 174ms (Views: 123.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 16:00:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 3.5ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:13:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.8ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.5ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 16:01:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.2ms)
+  Rendered work/_images.html.haml (27.4ms)
+  Rendered work/index.html.haml within layouts/application (49.3ms)
+  Rendered shared/_header.html.haml (17.2ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 1407ms (Views: 1329.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 16:01:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.6ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.3ms)
+  Rendered work/choose_theme.js.erb (53.8ms)
+Completed 200 OK in 187ms (Views: 122.3ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 16:01:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.5ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 3.4ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:13:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.7ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (24.3ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 16:02:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (1.2ms)
+  Rendered work/_images.html.haml (22.4ms)
+  Rendered work/index.html.haml within layouts/application (42.5ms)
+  Rendered shared/_header.html.haml (17.0ms)
+  Rendered shared/_footer.html.haml (0.7ms)
+Completed 200 OK in 406ms (Views: 371.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 16:02:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.2ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.5ms)
+  Rendered work/choose_theme.js.erb (53.8ms)
+Completed 200 OK in 161ms (Views: 131.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 16:02:24 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.3ms)
+  Rendered work/_choose_theme_from_arr.html.haml (1.5ms)
+  Rendered work/choose_theme.js.erb (53.3ms)
+Completed 200 OK in 169ms (Views: 120.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 16:02:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой сад должен быть в вашем доме?"}
+In work#display_theme
+  [1m[36mTheme Load (0.3ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой сад должен быть в вашем доме?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.2ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `attributes' for nil:NilClass):
+  
+app/controllers/concerns/work_image.rb:13:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (23.6ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 16:02:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (6.8ms)
+  Rendered work/_images.html.haml (28.5ms)
+  Rendered work/index.html.haml within layouts/application (50.0ms)
+  Rendered shared/_header.html.haml (18.5ms)
+  Rendered shared/_footer.html.haml (0.9ms)
+Completed 200 OK in 1415ms (Views: 1340.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 16:03:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.6ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.2ms)
+  Rendered work/choose_theme.js.erb (54.5ms)
+Completed 200 OK in 186ms (Views: 125.3ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 16:03:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+Completed 500 Internal Server Error in 115ms (ActiveRecord: 2.7ms)
+
+
+  
+NameError (undefined local variable or method `one_image_attr' for #<WorkController:0x00000003366818>
+Did you mean?  new_image_path):
+  
+app/controllers/concerns/work_image.rb:14:in `show_image'
+app/controllers/work_controller.rb:47:in `display_theme'
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (47.1ms)
+Started GET "/?locale=ru" for 10.0.2.2 at 2016-12-20 16:05:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WorkController#index as HTML
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "images"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+  Rendering work/index.html.haml within layouts/application
+  Rendered work/_button_theme_select.html.haml (7.0ms)
+  Rendered work/_images.html.haml (28.0ms)
+  Rendered work/index.html.haml within layouts/application (49.4ms)
+  Rendered shared/_header.html.haml (18.7ms)
+  Rendered shared/_footer.html.haml (0.8ms)
+Completed 200 OK in 1407ms (Views: 1332.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 16:05:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.6ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.1ms)
+  Rendered work/choose_theme.js.erb (53.1ms)
+Completed 200 OK in 208ms (Views: 127.2ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 16:05:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой пляж по вашиму мнению является наилучшим"}
+In work#display_theme
+  [1m[36mTheme Load (0.6ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой пляж по вашиму мнению является наилучшим"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+  Rendering work/display_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (2.2ms)
+  Rendered work/display_theme.js.erb (222.9ms)
+Completed 200 OK in 724ms (Views: 463.7ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=2&length=1" for 10.0.2.2 at 2016-12-20 16:06:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.2ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.41ms)
+Completed 200 OK in 77ms (Views: 70.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=2&length=1" for 10.0.2.2 at 2016-12-20 16:06:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.2ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.16ms)
+Completed 200 OK in 10ms (Views: 1.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=2&length=1" for 10.0.2.2 at 2016-12-20 16:06:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Completed 200 OK in 12ms (Views: 1.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=2&length=1" for 10.0.2.2 at 2016-12-20 16:06:05 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.4ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.24ms)
+Completed 200 OK in 13ms (Views: 1.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/prev_image?index=0&theme_id=2&length=1" for 10.0.2.2 at 2016-12-20 16:06:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#prev_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.2ms)
+Completed 200 OK in 12ms (Views: 1.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/prev_image?index=0&theme_id=2&length=1" for 10.0.2.2 at 2016-12-20 16:06:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#prev_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.82ms)
+Completed 200 OK in 13ms (Views: 2.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/prev_image?index=0&theme_id=2&length=1" for 10.0.2.2 at 2016-12-20 16:06:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#prev_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.2ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/api/prev_image?index=0&theme_id=2&length=1" for 10.0.2.2 at 2016-12-20 16:06:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#prev_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"2", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 2]]
+In show_image: one_image_attr = {"id"=>1, "name"=>"Пляж 1", "file"=>"bitch.jpg", "ave_value"=>nil} 
+In show_image: image_id = 1 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 1]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>2, :images_arr_size=>1, :image_id=>1, :name=>"Пляж 1", :file=>"bitch.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.76ms)
+Completed 200 OK in 12ms (Views: 1.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/work/choose_theme?locale=ru" for 10.0.2.2 at 2016-12-20 16:06:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#choose_theme as JS
+  Parameters: {"locale"=>"ru"}
+In extr_locale_in_accept_lang: locale = ru
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "themes"."name" FROM "themes"[0m
+In WorkController#choose_theme @themes = ["-----", "Какой пляж по вашиму мнению является наилучшим", "Какие пещеры кажутся вам наиболее привлекательными?", "Какой автомобиль вы бы хотели себе?", "Какой сад должен быть в вашем доме?"]
+  Rendering work/choose_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (1.7ms)
+  Rendered work/_choose_theme_from_arr.html.haml (2.0ms)
+  Rendered work/choose_theme.js.erb (52.3ms)
+Completed 200 OK in 156ms (Views: 122.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/work/display_theme" for 10.0.2.2 at 2016-12-20 16:06:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WorkController#display_theme as JS
+  Parameters: {"utf8"=>"✓", "theme"=>"Какой автомобиль вы бы хотели себе?"}
+In work#display_theme
+  [1m[36mTheme Load (0.5ms)[0m  [1m[34mSELECT  "themes".* FROM "themes" WHERE "themes"."name" = $1 LIMIT $2[0m  [["name", "Какой автомобиль вы бы хотели себе?"], ["LIMIT", 1]]
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+In show_image: one_image_attr = {"id"=>3, "name"=>"Автомобиль 1", "file"=>"car.jpg", "ave_value"=>nil} 
+In show_image: image_id = 3 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 3]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>4, :images_arr_size=>1, :image_id=>3, :name=>"Автомобиль 1", :file=>"car.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+  Rendering work/display_theme.js.erb
+  Rendered work/_button_theme_select.html.haml (2.3ms)
+  Rendered work/display_theme.js.erb (198.3ms)
+Completed 200 OK in 654ms (Views: 440.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=4&length=1" for 10.0.2.2 at 2016-12-20 16:06:16 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"4", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+In show_image: one_image_attr = {"id"=>3, "name"=>"Автомобиль 1", "file"=>"car.jpg", "ave_value"=>nil} 
+In show_image: image_id = 3 
+  [1m[36mValue Load (0.4ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 3]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>4, :images_arr_size=>1, :image_id=>3, :name=>"Автомобиль 1", :file=>"car.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.24ms)
+Completed 200 OK in 12ms (Views: 1.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=4&length=1" for 10.0.2.2 at 2016-12-20 16:06:17 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"4", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+In show_image: one_image_attr = {"id"=>3, "name"=>"Автомобиль 1", "file"=>"car.jpg", "ave_value"=>nil} 
+In show_image: image_id = 3 
+  [1m[36mValue Load (0.4ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 3]]
+In show_image: user_valued = 0 
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>4, :images_arr_size=>1, :image_id=>3, :name=>"Автомобиль 1", :file=>"car.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.58ms)
+Completed 200 OK in 12ms (Views: 1.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/api/next_image?index=0&theme_id=4&length=1" for 10.0.2.2 at 2016-12-20 16:06:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#next_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"4", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+In show_image: one_image_attr = {"id"=>3, "name"=>"Автомобиль 1", "file"=>"car.jpg", "ave_value"=>nil} 
+In show_image: image_id = 3 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 3]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>4, :images_arr_size=>1, :image_id=>3, :name=>"Автомобиль 1", :file=>"car.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.3ms)
+Completed 200 OK in 12ms (Views: 1.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/prev_image?index=0&theme_id=4&length=1" for 10.0.2.2 at 2016-12-20 16:06:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#prev_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"4", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+In show_image: one_image_attr = {"id"=>3, "name"=>"Автомобиль 1", "file"=>"car.jpg", "ave_value"=>nil} 
+In show_image: image_id = 3 
+  [1m[36mValue Load (0.4ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 3]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>4, :images_arr_size=>1, :image_id=>3, :name=>"Автомобиль 1", :file=>"car.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.31ms)
+Completed 200 OK in 11ms (Views: 0.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/api/prev_image?index=0&theme_id=4&length=1" for 10.0.2.2 at 2016-12-20 16:06:21 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#prev_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"4", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+In show_image: one_image_attr = {"id"=>3, "name"=>"Автомобиль 1", "file"=>"car.jpg", "ave_value"=>nil} 
+In show_image: image_id = 3 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 3]]
+In show_image: user_valued = 0 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>4, :images_arr_size=>1, :image_id=>3, :name=>"Автомобиль 1", :file=>"car.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.26ms)
+Completed 200 OK in 12ms (Views: 1.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/api/prev_image?index=0&theme_id=4&length=1" for 10.0.2.2 at 2016-12-20 16:06:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Api::ApiController#prev_image as JSON
+  Parameters: {"index"=>"0", "theme_id"=>"4", "length"=>"1"}
+In show_image: current_user_id = 0 
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images"."id", "images"."name", "images"."file", "images"."ave_value" FROM "images" WHERE "images"."theme_id" = $1[0m  [["theme_id", 4]]
+In show_image: one_image_attr = {"id"=>3, "name"=>"Автомобиль 1", "file"=>"car.jpg", "ave_value"=>nil} 
+In show_image: image_id = 3 
+  [1m[36mValue Load (0.3ms)[0m  [1m[34mSELECT "values".* FROM "values" WHERE "values"."user_id" = $1 AND "values"."image_id" = $2[0m  [["user_id", 0], ["image_id", 3]]
+In show_image: user_valued = 0 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "values"[0m
+In show_image:  data = {:index=>0, :values_qty=>0, :current_user_id=>0, :theme_id=>4, :images_arr_size=>1, :image_id=>3, :name=>"Автомобиль 1", :file=>"car.jpg", :user_valued=>0, :value=>0, :common_ave_value=>0} 
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.39ms)
+Completed 200 OK in 9ms (Views: 1.2ms | ActiveRecord: 0.8ms)
+
+
